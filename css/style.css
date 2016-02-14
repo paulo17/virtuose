@@ -75,6 +75,10 @@ h2, h3 {
     text-decoration: none;
 }
 
+.nav a:hover{
+    color: rgb(177,68,52);
+}
+
 .nav-left {
     font-family: 'Dancing Script', cursive;
     float: left;
