@@ -153,3 +153,10 @@ h2, h3 {
 .content-second .content-right {
     width: 50%;
 }
+.content-second .content-right p { width: 400px; }
+
+.content-full {
+    margin: auto;
+    width: 980px;
+    text-align: center;
+}
