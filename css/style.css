@@ -81,7 +81,7 @@ h2, h3 {
 }
 
 .nav a:hover{
-    color: rgb(177,68,52);
+    color: #be4938;
 }
 
 .nav-left {
@@ -173,4 +173,42 @@ h2, h3 {
     margin: auto;
     width: 980px;
     text-align: center;
+    margin-top: 100px;
 }
+
+#makingof .large {
+    height: 370px;
+    width: 60%;
+}
+
+#makingof .min {
+    height: 370px;
+    width: 39%;
+}
+
+#makingof div.min {
+    display: inline-block;
+    float: right;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#makingof h2 {
+    margin-top: 100px;
+}
+
+#makingof h3, #makingof h2{
+    text-align: center;
+}
+
+#makingof a {
+    color: #be4938;
+    border: 1px solid #be4938;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
