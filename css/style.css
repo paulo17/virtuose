@@ -193,6 +193,14 @@ h2, h3 {
     padding: 50px;
 }
 
+#makingof div.min p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#makingof div.min h3 {
+    text-align: left;
+}
+
 #makingof h2 {
     margin-top: 100px;
 }
