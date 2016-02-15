@@ -12,6 +12,8 @@ h2, h3 {
 
 p {
     font-family: 'Raleway', sans-serif;
+    color: #707070;
+    line-height: 1.4;
 }
 
 .header {
@@ -245,6 +247,25 @@ p {
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
+}
+
+#team {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#team h2 {
+    margin: 100px 0px 20px 0px;
+}
+
+#team p {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#team p span {
+    font-weight: 400;
 }
 
 footer {
