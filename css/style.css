@@ -65,7 +65,7 @@ p {
 .nav-container {
     width: 100%;
     min-width: 1200px;
-    height: 100px;
+    height: 60px;
     position: fixed;
     top: 0;
     right: 0;
@@ -76,10 +76,10 @@ p {
 
 .nav {
     width: 70%;
-    height: 100px;
-    line-height: 100px;
+    height: 60px;
+    line-height: 60px;
     margin: auto;
-    font-size: 36px;
+    /*font-size: 36px;*/
 }
 
 .nav ul {
@@ -132,17 +132,17 @@ p {
 }
 
 .logo {
-    margin-top: 25px;
+    margin-top: 7px;
     display: block;
     float: left;
-    height: 60px;
-    width: 60px;
-    line-height: 100px;
+    /*height: 60px;*/
+    /*width: 60px;*/
+    line-height: 60px;
 }
 
 .logo > img {
-    height: 60px;
-    width: 60px;
+    height: 45px;
+    width: 45px;
 }
 
 .content-first {
