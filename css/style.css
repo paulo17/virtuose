@@ -220,3 +220,36 @@ h2, h3 {
     margin-top: 20px;
 }
 
+footer {
+    width: 100%;
+    min-width: 1200px;
+    background-color: rgb(26,26,26);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer img {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: white;
+    font-weight: 600;
+}
+
+footer p {
+    line-height: 1.2;
+    font-weight: 200;
+}
+
+footer p.date {
+    font-weight: 600;
+}
+
+footer p.copyright {
+    margin-top: 20px;
+}
+
