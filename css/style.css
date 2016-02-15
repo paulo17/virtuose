@@ -194,7 +194,8 @@ p {
     height: 450px;
 }
 .content-second .content-right {
-    width: 35%;
+    width: 32%;
+    margin-top: 145px;
 }
 .content-second .content-right p { width: 400px; }
 
@@ -270,7 +271,7 @@ p {
 
 footer {
     min-width: 1200px;
-    background-color: rgb(26,26,26);
+    background-color: black;
     color: white;
     text-align: center;
     padding: 40px;
@@ -290,6 +291,7 @@ footer a {
 footer p {
     line-height: 1.2;
     font-weight: 200;
+    color: white;
 }
 
 footer p.date {
