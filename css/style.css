@@ -16,6 +16,15 @@ p {
     line-height: 1.5;
 }
 
+.img-hover {
+    opacity:1;
+    -webkit-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+.img-hover:hover {
+    opacity:0.88;
+}
+
 .popup{
     z-index:999999;
 }
@@ -239,6 +248,7 @@ p {
 }
 
 .content-first .content-right .content-bottom .content-video > #button-play {
+    z-index:999;
     position:absolute;
     bottom:0;
     left:0;
@@ -267,6 +277,7 @@ p {
 }
 
 .content-second .content-left .content-sound > #button-play {
+    z-index:999;
     position:absolute;
     bottom:0;
     right:0;
@@ -330,10 +341,10 @@ p {
     border: 1px solid #be4938;
     padding: 15px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
+    font-weight: 400;
 }
 
 #makingof a:hover {
@@ -355,27 +366,29 @@ p {
     font-family: 'Raleway', sans-serif;
     color: #707070;
     line-height: 1.4;
+    margin:0 auto;
     margin-bottom:30px;
     font-weight:normal;
+    width:800px;
 }
 
 #team p {
     margin-left:40px;
     margin-bottom: 6px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #team p .team-name {
     display:inline-block;
-    width:228px;
+    width:216px;
     text-align:left;
 }
 
 #team p .team-role {
     display:inline-block;
-    width:272px;
-    font-weight: 400;
+    width:250px;
+    font-weight: 300;
     text-align:left;
 }
 
