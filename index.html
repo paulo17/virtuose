@@ -7,6 +7,7 @@
 
     <title>Virtuose - Le film</title>
 
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
@@ -34,6 +35,10 @@
 
 <body>
 
+<div class="popup">
+    
+</div>
+
 <div class="nav-container">
     <div class="nav">
         <div class="nav-left">
@@ -43,14 +48,14 @@
             <ul>
                 <li><a href="#lisa">Lisa</a></li>
                 <!-- <li><a href="#music">La musique</a></li> -->
-                <li><a href="#movie">Le film</a></li>
+                <!-- <li><a href="#movie">Le film</a></li> -->
                 <li><a href="#makingof">Le making-of</a></li>
                 <li><a href="#team">L'équipe</a></li>
             </ul>
         </div>
         <div class="nav-right">
-            <a href="https://www.facebook.com/Virtuose-Le-film-543935425788209/" target="_blank">f</a>
-            <a href="https://soundcloud.com/virtuose-lefilm" target="_blank"><img src="images/soundcloud.png"></a>
+            <a href="https://www.facebook.com/Virtuose-Le-film-543935425788209/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://soundcloud.com/virtuose-lefilm" target="_blank"><i class="fa fa-soundcloud"></i></a>
         </div>
     </div>
 </div>
@@ -61,6 +66,7 @@
             <img src="images/logo.png" alt="Logo virtuose text" width="125px">
         </div>
         <h2>Il n'y a qu'un pas entre le génie et la folie.</h2>
+        <hr />
         <span class="date">Le 19 février</span>
     </div>
 </div>
@@ -75,20 +81,30 @@
                 <p>Découvrez dès maintenant la bande annonce de notre court métrage et laissez vous emporter dans l’univers de Lisa.</p>
             </div>
             <div class="content-bottom">
-                <h2>L'écriture de mon oeuvre</h2>
+                <h2>L'écriture de l'oeuvre</h2>
                 <p>Lisa va créer une oeuvre immortalisant sa métamorphose, son oeuvre va lui permettre de briser ses chaînes.</p>
             </div>
         </div>
         <div class="content-right">
             <div class="content-bottom">
-                <img src="images/photo-claire.jpg" alt="lisa, jeune harpiste">
+                <div class="content-video">
+                    <div id="button-play">
+                        <img src="images/play.png" alt="play" />
+                    </div>
+                    <img src="images/photo-claire.jpg" alt="lisa, jeune harpiste">
+                </div>
             </div>
         </div>
     </div>
 
     <div class="content-second">
         <div class="content-left">
-            <img src="images/photo-claire-harpe.jpg" alt="harpe de lisa">
+            <div class="content-sound">
+                <div id="button-play">
+                    <img src="images/cle-sol.png" alt="play" />
+                </div>
+                <img src="images/photo-claire-harpe.jpg" alt="harpe de lisa">
+            </div>
         </div>
         <div class="content-right">
             <h2>La folie créative</h2>
@@ -96,12 +112,14 @@
         </div>
     </div>
 
+    <!--
     <div class="content-full">
         <h2 id="movie">L'oeuvre entière</h2>
         <div class="player">
             <iframe src="https://player.vimeo.com/video/155504730?byline=0&portrait=0" width="980" height="551" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
     </div>
+    -->
 
     <div id="makingof">
         <h2>Voir les débuts du morceau</h2>
@@ -114,14 +132,16 @@
             <h3>Le tournage en images</h3>
             <p>Venez partager notre aventure et découvrir nos deux semaines de court métrage en images.</p>
             <a href="https://www.facebook.com/Virtuose-Le-film-543935425788209/photos_stream?tab=photos_stream" target="_blank">Toutes les photos</a>
+            <a href="#" target="_blank">Voir le making of</a>
         </div>
     </div>
 
     <div id="team">
         <h2>Les compositeurs</h2>
+        <h4>Virtuose est un court-métrage réalisé par huit héticiens dans le cadre d'un projet pédagogique</h4>
         <p>Richard Truong <span>- Réalisateur</span></p>
         <p>Othman Hassani <span>- Co-réalisateur, monteur</span></p>
-        <p>Claire Canella <span>- Actrice</span></p>
+        <p>Claire Canella <span>- Actrice principale</span></p>
         <p>Maxime Guioneau <span>- Ingénieur son</span></p>
         <p>Camille Deverrière <span>- Décorateur & régisseur</span></p>
         <p>Loic Devillierre <span>- Responsable communication</span></p>
@@ -131,10 +151,14 @@
 </div>
 
 <footer>
-    <img src="images/logo.png">
+    <img id=logo-virtuose src="images/logo.png">
     <p class="date">Sortie sur vos écrans le 19 février 2016</p>
     <p class="social">Rejoignez nous sur <a href="https://www.facebook.com/Virtuose-Le-film-543935425788209/" target="_blank">Facebook</a> & <a href="https://soundcloud.com/virtuose-lefilm" target="_blank">Soundcloud</a></p>
     <p class="copyright">©2016 - Virtuose. le film</p>
+    <div class="logos">
+        <img id="logo-hetic" src="images/logo-hetic.png" alt="Hetic" />
+        <img id="logo-insomniaque" src="images/insomniaque-production.png" alt="Insomniaque" />
+    </div>
 </footer>
 
 </body>
