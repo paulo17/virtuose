@@ -19,15 +19,50 @@ p {
 .img-hover {
     opacity:1;
     -webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -ms-transition: opacity 0.3s linear;
     transition: opacity 0.3s linear;
 }
 .img-hover:hover {
     opacity:0.88;
 }
 
-.popup{
-    z-index:999999;
+#popup{
+    z-index:-1;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
 }
+#popup.show{
+    opacity: 1;
+    z-index: 999999;
+}
+#popup .video{
+    position:absolute;
+    top:-50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width:980px;
+}
+#popup .sound{
+    position:absolute;
+    top:-50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width:980px;
+}
+
 
 .header {
     width: 100%;
@@ -213,7 +248,13 @@ p {
     top:50%;
     left:50%;
     -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    -webkit-transition: height 0.3s ease-out, width 0.3s ease-out;
+    -moz-transition: height 0.3s ease-out, width 0.3s ease-out;
+    -ms-transition: height 0.3s ease-out, width 0.3s ease-out;
+    transition: height 0.3s ease-out, width 0.3s ease-out;
 }
 
 .content-left { float: left; }
@@ -290,6 +331,13 @@ p {
     display: block;
     height: 450px;
 }
+
+.content-first .content-right .content-bottom .content-video:hover > #button-play img, .content-second .content-left .content-sound:hover > #button-play img {
+    height:88px;
+    width:88px;
+}
+
+
 .content-second .content-right {
     width: 32%;
     margin-top: 145px;
