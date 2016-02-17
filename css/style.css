@@ -665,33 +665,50 @@ footer .logos #logo-insomniaque {
         min-width: inherit;
     }
 
+    .container {
+        width: 100%;
+    }
 
     .content-first .content-left {
         box-sizing: border-box;
         padding-left:5%;
+        padding-right:5%;
+        width:50%;
+    }
+
+    .content-first .content-right{
+        width:50%;
+    }
+
+    .content-first .content-right .content-bottom .content-video{
+        width:50%;
     }
 
     .content-first .content-right .content-bottom .content-video > img {
         height: auto;
-        width:587px;
+        width:100%;
     }
 
     
     .content-second{
-        height:400px;
+        height:322px;
+    }
+    .content-second .content-left {
+        width:50%;
     }
     .content-second .content-left .content-sound img {
         height: auto;
-        width:587px;
+        width:100%;
     }
 
     .content-second .content-right {
         position:relative;
         height:auto;
-        width:38%;
+        width:50%;
         box-sizing: border-box;
-        padding-right:50px;
-        margin-top:112px;
+        padding-left:5%;
+        padding-right:5%;
+        margin-top:78px;
     }
     .content-second .content-right p { width: 100%; }
 
@@ -706,6 +723,10 @@ footer .logos #logo-insomniaque {
 
     #makingof h2 {
         margin-top: 80px;
+    }
+
+    #makingof div.min {
+        padding: 30px;
     }
 
     footer {
