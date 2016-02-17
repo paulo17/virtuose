@@ -366,7 +366,7 @@ p {
     width: 32%;
     margin-top: 145px;
 }
-.content-second .content-right p { width: 400px; }
+.content-second .content-right p { width: 362px; }
 
 .content-full {
     margin: auto;
@@ -523,3 +523,90 @@ footer .logos #logo-insomniaque {
 
 
 
+/* ------------ MEDIA QUERIES ------------ */
+
+@media screen and (max-width: 1299px) {
+    body{
+        width:100%;
+        min-width:inherit;
+    }
+
+    .container {
+        width: 100%;
+    }
+    
+    .content-first .content-left {
+        box-sizing: border-box;
+        padding-left:3%;
+    }
+
+    #makingof .large, #makingof .min {
+        height: auto;
+    }
+
+    footer {
+        min-width: inherit;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+
+    #popup .video, #popup .video iframe{
+        height:414px;
+        width:720px;
+    }
+    #popup .sound, #popup .sound iframe{
+        width:720px;
+    }
+
+    .header {
+        background: #000000 url("../images/header-img.jpg") no-repeat center;
+    }
+
+    .nav-container {
+        min-width: inherit;
+    }
+
+
+    .content-first .content-left {
+        padding-left:5%;
+    }
+
+    .content-first .content-right .content-bottom .content-video {
+        height:auto;
+        width:auto;
+    }
+    .content-first .content-right .content-bottom .content-video > img {
+        height: auto;
+        width:587px;
+    }
+
+    
+    .content-second{
+        height:400px;
+    }
+    .content-second .content-left .content-sound {
+        height:auto;
+        width:auto;
+    }
+    .content-second .content-left .content-sound img {
+        height: auto;
+        width:587px;
+    }
+
+    .content-second .content-right {
+        position:relative;
+        height:auto;
+        width:38%;
+        box-sizing: border-box;
+        padding-right:50px;
+        margin-top:112px;
+    }
+    .content-second .content-right p { width: 100%; }
+
+
+    #makingof h2 {
+        margin-top: 80px;
+    }
+}
