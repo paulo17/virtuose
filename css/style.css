@@ -531,6 +531,10 @@ footer .logos #logo-insomniaque {
         min-width: 1100px;
     }
 
+    .header {
+        background: #000000 url("../images/header-img.jpg") no-repeat center;
+    }
+
     .container {
         width: 1100px;
     }
@@ -578,6 +582,63 @@ footer .logos #logo-insomniaque {
 }
 
 @media screen and (max-width: 1199px) {
+
+    body {
+        min-width: inherit;
+    }
+
+    .header {
+        background: #000000 url("../images/header-img.jpg") no-repeat center;
+    }
+
+    .container {
+        width: 1000px;
+    }
+
+    .content-first .content-left{
+        box-sizing: border-box;
+        padding-left:4%;
+        width:44%;
+    }
+
+    .content-first .content-right{
+        width:56%;
+    }
+    .content-first .content-right .content-bottom .content-video > img {
+        height: 340px;
+    }
+
+    .content-second{
+        height:400px;
+    }
+    .content-second .content-left .content-sound img {
+        height: 340px;
+    }
+
+    .content-second .content-right {
+        width: 38%;
+        margin-top: 108px;
+    }
+
+    .content-second .content-right p {
+        width:350px;
+    }
+
+    #makingof h2 {
+        margin-top: 60px;
+    }
+
+    #makingof .large, #makingof .min {
+        height: auto;
+    }
+
+    footer {
+        min-width: inherit;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
 
     body{
         width:100%;
@@ -634,6 +695,11 @@ footer .logos #logo-insomniaque {
     }
     .content-second .content-right p { width: 100%; }
 
+
+    #makingof{
+        width:90%;
+        margin: 0 auto;
+    }
     #makingof .large, #makingof .min {
         height: auto;
     }
