@@ -902,6 +902,14 @@ footer .logos #logo-insomniaque {
 
 @media screen and (max-width: 544px) {
 
+    #popup .video, #popup .video iframe{
+        height:235px;
+        width:400px;
+    }
+    #popup .sound, #popup .sound iframe{
+        width:400px;
+    }
+
     .nav ul {
         margin-left: 10px;
     }
@@ -969,6 +977,14 @@ footer .logos #logo-insomniaque {
 
 @media screen and (max-width: 464px) {
 
+    #popup .video, #popup .video iframe{
+        height:179px;
+        width:300px;
+    }
+    #popup .sound, #popup .sound iframe{
+        width:300px;
+    }
+
     .nav{
         width:98%;
     }
@@ -1000,6 +1016,7 @@ footer .logos #logo-insomniaque {
 
     .content-first .content-right .content-bottom .content-video .img-hover {
         top:-50%;
+        left:-13%;
     }
 
     #makingof{
