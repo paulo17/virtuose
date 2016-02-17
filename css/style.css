@@ -975,6 +975,10 @@ footer .logos #logo-insomniaque {
     .nav li a {
         margin: 0 12px;
     }
+    .nav .nav-left{
+        margin-left: 1%;
+    }
+
     .nav .nav-left ul li:last-child a {
         margin-right:0;
     }
@@ -996,7 +1000,17 @@ footer .logos #logo-insomniaque {
 
     .content-first .content-right .content-bottom .content-video .img-hover {
         top:-50%;
-        left:-10%;
+    }
+
+    #makingof{
+        text-align:center;
+    }
+    #makingof .large{
+        width:100%;
+    }
+
+    #makingof .min{
+        width:49%;
     }
 
     footer .logos #logo-hetic {
