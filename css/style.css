@@ -537,9 +537,12 @@ footer .logos #logo-insomniaque {
     
     .content-first .content-left {
         box-sizing: border-box;
-        padding-left:4%;
+        padding-left:7%;
     }
 
+    .content-second .content-right {
+        width: 33%;
+    }
     .content-second .content-right p { width: 362px; }
 
     #makingof .large, #makingof .min {
