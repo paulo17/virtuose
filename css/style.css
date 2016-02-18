@@ -147,7 +147,6 @@ p {
 
 .nav-container {
 	width: 100%;
-	min-width: 1200px;
 	height: 60px;
 	position: fixed;
 	top: 0;
@@ -776,6 +775,9 @@ footer .logos #logo-insomniaque {
 	.nav {
 		width: 90%;
 	}
+	.nav .nav-left ul li:last-child a {
+        margin-right:0;
+    }
 
 	.header {
 		height: 320px;
@@ -993,10 +995,6 @@ footer .logos #logo-insomniaque {
     }
     .nav .nav-left{
         margin-left: 1%;
-    }
-
-    .nav .nav-left ul li:last-child a {
-        margin-right:0;
     }
     .nav .nav-right{
         display:none;
